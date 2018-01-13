@@ -36,3 +36,5 @@ SwiftAA/SwiftAA.playground/*.remap
 
 TestReports/*
 
+/.build
+/.DS_Store

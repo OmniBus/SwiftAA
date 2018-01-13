@@ -3,13 +3,12 @@ xcodeproj: SwiftAA.xcodeproj
 scheme: "SwiftAA-iOS"
 source_directory:
   - SwiftAA
-output_directory: 
+output_directory:
   - TestReports
 ignore:
-  - ObjCAA/*
-  - AAPlusTests/*
-  - SwiftAATests/*
-  - SwiftAATests-iOS/*
+  - Sources/ObjCAA/*
+  - Sources/aaplus*
+  - Tests/AAPlusTests/*
+  - Tests/SwiftAATests/*
+  - Tests/SwiftAATests-iOS/*
   - TestReports/*
-  - libswiftaa/*
-  - aaplus*
